@@ -12,8 +12,8 @@ One of the main challenges of this project was data cleaning. The raw survey dat
 ## Key Insights From the Data
 
 * **The High-Performance Strain:** There is a distinct step-ladder trend where anxiety systematically climbs for students with higher academic performance. Anxiety rates peak heavily within the top CGPA tier (3.50 - 4.00).
-* **Disproportionate Faculty Risks:** Law and Humanities & Social Sciences students experienced the highest proportional rates of depression. Technical majors like Computing & Tech had a much higher absolute volume of cases, but a lower percentage rate overall when compared to the massive size of their program.
-* **Help-Seeking Behavior:** Humanities & Social Sciences, Engineering, and Computing & Tech possessed both the highest counts of depressed students and the highest rates of students actively seeking treatment. Conversely, faculties with smaller volumes of depressed students showed almost zero help-seeking behavior.
+* **Disproportionate Faculty Risks:** Law and Humanities & Social Sciences students experienced the highest proportional rates of depression. Technical majors like Computing & Tech had a much higher volume of cases, but a lower percentage of depression rate overall.
+* **Help-Seeking Behavior:** Humanities & Social Sciences, Engineering, and Computing & Tech possessed both the highest counts of depressed students and the highest rates of students actively seeking treatment. Conversely, faculties with smaller volumes of depressed students showed zero seeking-for-help behavior.
 
 ## Installation & Setup
 
