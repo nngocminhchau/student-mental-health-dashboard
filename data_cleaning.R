@@ -1,7 +1,5 @@
-setwd("C:\\Users\\Admin\\OneDrive - The University of Waikato\\Documents\\Jeni_Self_Project")
 # 1. Load data
-df <- read.csv("C:\\Users\\Admin\\OneDrive - The University of Waikato\\Documents\\Jeni_Self_Project\\Student Mental health.csv", header = TRUE)
-
+df <- read.csv("Student Mental health.csv", header = TRUE)
 # 2. Do all cleaning:
 # fix col names
 
@@ -147,7 +145,7 @@ ggplot(data = df_cleaned, aes(x = cgpa, fill = anxiety)) +
 
 # --- PLOT 3: PANIC ATTACKS BY YEAR OF STUDY ---
 
-ggplot(data = df_cleaned, aes(x = study_year, fill = panic_attack)) +
+ggplot(data = df_cleaned, aes(x = study_year, fill = panic_attacks)) +
   geom_bar(position = "fill", width = 0.6) + 
   scale_fill_brewer(palette = "Accent") +
   scale_y_continuous(labels = scales::percent) +
